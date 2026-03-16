@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesdea - Investment Deal Makers.</title>
+
+    <!-- Preconnect for faster font loading (PUT THIS FIRST!) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+    <!-- Google Fonts (deferred) -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Load Font Awesome CSS asynchronously -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" media="print" onload="this.media='all'">
+
+    <!-- fontello font css -->
+    <link rel="stylesheet" href="assets/css/plugins/fontello-enqueue.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/plugins/fontello-icons.css" media="print" onload="this.media='all'">
+
+    <!-- others css -->
+
+
+    <!-- Make these ASYNC (less critical) -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    </noscript>
+
+    <link rel="stylesheet" href="assets/css/plugins/lightgallery-bundle.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/plugins/lightgallery-bundle.min.css">
+    </noscript>
+
+
+    <!-- Keep these NORMAL (no async) - needed for preloader and initial layout -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <button id="themeBtn"><i class="far fa-moon"></i></button>
+        <div class="video-modal">
+            <div class="video-modal-content">
+                <span class="close-btn">&times;</span>
+                <iframe allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- New Mobile Menu -->
+        <div data-menu="mobileMenu" class="side-menu2">
+            <ul>
+                <li><a href="#orchestration">Orchestration</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#ecosystem">Ecosystem</a></li>
+                <li><a href="#mandate">Mandate</a></li>
+            </ul>
+            <div class="menu-links">
+                <span>Follow us:</span>
+                <ul class="social-icon">
+                    <li><a href="https://linkedin.com/company/vesdea" title=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <a href="https://enormous-sousaphone-56a.notion.site/31f9bc790cdf8054bcdfd28a353cf4f2?pvs=105" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                    <span>Access the Network</span>
+                </a>
+            </div>
+        </div>
+        <!-- Overlay for Mobile Menu -->
+        <div class="overlay2"></div>
+
+        <!-- sticky header -->
+        <header class="sticky-active">
+            <div class="header-menu-area">
+                <div class="row gx-20 align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div>
+                            <a href="#">
+                                <img src="assets/images/vesdea_logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu menu-style1">
+                            <ul>
+                                <li>
+                                    <a href="#orchestration" class="active">
+                                        <span class="menu-item">Orchestration</span>
+                                        <span class="menu-item2">Orchestration</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#process" class="active">
+                                        <span class="menu-item">Process</span>
+                                        <span class="menu-item2">Process</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#ecosystem" class="active">
+                                        <span class="menu-item">Ecosystem</span>
+                                        <span class="menu-item2">Ecosystem</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#mandate" class="active">
+                                        <span class="menu-item">Mandate</span>
+                                        <span class="menu-item2">Mandate</span>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-auto d-none d-xl-block">
+                        <div class="btn-box">
+                            <a href="https://enormous-sousaphone-56a.notion.site/31f9bc790cdf8054bcdfd28a353cf4f2?pvs=105" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                                <span>Access the Network</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="hamburger popup-menu" data-menu="mobileMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <!-- End sticky header -->
+
+        <!--======== Header ========-->
+        <header class="vs-header">
+            <div class="container2 position-relative">
+                <div class="header-menu-area">
+                    <div class="row gx-20 align-items-center justify-content-between">
+                        <div class="col-auto col">
+                            <div>
+                                <a href="index1.html">
+                                    <img src="assets/images/vesdea_logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu menu-style1">
+                                <ul>
+                                    <li>
+                                        <a href="#orchestration" class="active">
+                                            <span class="menu-item">Orchestration</span>
+                                            <span class="menu-item2">Orchestration</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#process" class="active">
+                                            <span class="menu-item">Process</span>
+                                            <span class="menu-item2">Process</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#ecosystem" class="active">
+                                            <span class="menu-item">Ecosystem</span>
+                                            <span class="menu-item2">Ecosystem</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#mandate" class="active">
+                                            <span class="menu-item">Mandate</span>
+                                            <span class="menu-item2">Mandate</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="btn-box">
+                                <a href="https://enormous-sousaphone-56a.notion.site/31f9bc790cdf8054bcdfd28a353cf4f2?pvs=105" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                                    <span>Access the Network</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="hamburger popup-menu" data-menu="mobileMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <!--vs-main-menu-wrapper end-->
+        </header>
+        <!--======== / Header ========-->
+
+        <!-- her-style1 -->
+        <section class="hero-style1">
+            <div class="hero-info">
+                <div class="container-fluid">
+                    <div class="row end">
+                        <div class="col-lg-8">
+                            <div class="hero-title">
+                                <h1 class="gradient-title">The <span>Nexus</span> of Private Market Deals.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-banner">
+                <div class="container2">
+                    <div class="banner-content">
+                        <span class="sub-title" id="animatedHeading">"We make deals happen."</span>
+                        <h1 class="title2">Vesdea</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero-style1 -->
+
+        <!-- neural-playground -->
+        <section class="neural-playground ibt-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="neural-img">
+                            <img src="assets/images/layers/layer.png" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10">
+                        <div class="neural-content p-0">
+                            <br><br>
+                            <h2 class="gradient-title">Orchestrating the <span>Private</span> Market.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End neural-playground -->
+
+        <!-- service-sec -->
+        <section id="orchestration" class="service-sec">
+            <div class="container">
+                <div class="title-area">
+                    <div class="row end">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="sec-title mb-0">
+                                <span class="sub-title">The Orchestration</span>
+                                <h2 class="title animated-heading">End-to-End Deal Orchestration.</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="sec-btn-box">
+                                <p>How we bridge the gap between corporate opportunity and institutional capital.</p>
+                                <a href="#process" title="" class="ibt-btn ibt-btn-outline">
+                                    <span>The Process</span>
+                                    <i class="icon-arrow-top"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="ser-card">
+                            <img src="assets/images/liquid2.jpg" alt="AI Agency & Technology HTML Template">
+                            <div class="ser-content">
+                                <h4 class="title">Proprietary Origination</h4>
+                                <p>We leverage our active network to source exclusive, off-market opportunities. From Seed and Series A tech scaleups to mid-market M&A, we identify high-value assets with proven traction and solid fundamentals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="ser-card">
+                            <img src="assets/images/service/service6-2.png" alt="AI Agency & Technology HTML Template">
+                            <div class="ser-content v2">
+                                <h4 class="title">Strategic Alignment</h4>
+                                <p>We don't just make introductions; we align interests. We act as the central node connecting originators, founders, and capital providers, ensuring that every transaction is structurally and strategically viable for all parties.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ser-info">
+                            <div class="ser-card v3">
+                                <img src="assets/images/service/service3.png" alt="AI Agency & Technology HTML Template">
+                                <h3 class="title"><a href="">Institutional Capital Access</a></h3>
+                            </div>
+                            <div class="ser-card v4">
+                                <img src="assets/images/liquid3.jpg" alt="AI Agency & Technology HTML Template">
+                                <div class="ser-content">
+                                    <h4 class="title">Driving the Close</h4>
+                                    <p>We focus purely on execution. While legal teams handle the administrative paperwork, we maintain the momentum, navigate strategic bottlenecks, and orchestrate the entire process until the deal is successfully signed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End service-sec -->
+
+        <!-- marquee-sec -->
+        <section class="marquee-sec ibt-section-gapTop">
+            <h2 style="display:none;">Marquee Section</h2>
+            <div class="marquee">
+                <div class="marquee-inner">
+                    <span>/ Deal Orchestration. / Proprietary Origination. / Strategic M&A. / Capital Raising. / Private Market Execution.</span>
+                    <span>/ Deal Orchestration. / Proprietary Origination. / Strategic M&A. / Capital Raising. / Private Market Execution.</span>
+                </div>
+            </div>
+        </section>
+        <!-- End marquee-sec -->
+
+        <!-- feature-style1 -->
+        <section id="process" class="feature-sec1 ibt-section-gap">
+            <div class="container">
+                <div class="sec-title">
+                    <span class="sub-title">The Process</span>
+                    <h2 class="title animated-heading">From Sourcing to Closing. This Is Our Process.</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-1.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Origination</h4>
+                            <p>We leverage our private network to uncover proprietary deals. From tech growth stages to traditional company acquisitions, we secure off market opportunities before they become public knowledge.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-2.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Validation</h4>
+                            <p>We elevate deals to institutional standards. We validate traction, unit economics, and operational fundamentals to ensure every asset is robust and ready for capital deployment.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-3.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Alignment</h4>
+                            <p>We architect the deal dynamics. We align the strategic interests of originators, founders, and liquidity providers to create a transaction framework that makes sense for all parties involved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature13-1.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">The Close</h4>
+                            <p>We maintain absolute control of the momentum. While legal teams handle the administrative paperwork, we navigate the final negotiations and drive the operation to a definitive signature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End feature-style1 -->
+
+        <!-- about-us-sec -->
+        <section id="ecosystem" class="about-us-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="about-img">
+                            <img src="assets/images/liquid4.jpg" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-content">
+                            <h2 class="style-text">Private Network.</h2>
+                            <div class="sec-title mb-0 white">
+                                <span class="sub-title">The Ecosystem</span>
+                                <h2 class="title animated-heading">A Closed Ecosystem Driven by Execution.</h2>
+                                <p>The best private market transactions never reach the open market. They are closed discreetly between trusted parties. Vesdea operates exactly within this space. We have built an exclusive ecosystem of active deal originators and industry insiders who feed our central hub with proprietary assets before they become public knowledge.</p>
+                                <p class="paragraph">This structure allows us to operate with absolute discretion and speed. Whether managing a tech funding round or a traditional M&A buyout, we ensure that sensitive corporate information is only shared with targeted, highly qualified capital partners across Europe and the US. We eliminate the noise and deliver pure market value.</p>
+                                <a href="#mandate" title="" class="ibt-btn ibt-btn-outline">
+                                    <span>Review Our Mandate</span>
+                                    <i class="icon-arrow-top"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-us-sec -->
+
+
+        <!-- faq-sec -->
+        <section id="mandate" class="faq-sec ibt-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="faq-img">
+                            <img src="assets/images/layers/layer2.png" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="faq-content">
+                            <div class="sec-title">
+                                <span class="sub-title">The Mandate</span>
+                                <h2 class="title animated-heading">Partnership Inquiries.</h2>
+                            </div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            What is the exact profile of the assets in your network?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We focus on two main pillars. First, tech scaleups seeking Capital Raising from Seed to Growth Equity. Second, traditional mid market businesses and mature tech companies ready for strategic M&A or buyouts. We exclusively target assets with proven traction and solid fundamentals.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            How do you validate an asset before presenting it?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We conduct a rigorous preliminary validation before any deal reaches our capital network. We evaluate unit economics, market positioning, and structural health to ensure the asset perfectly matches the strict deployment criteria of our institutional partners.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What are the capital requirements to participate?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We handle multi million transactions. While we do not charge access fees to join our private network, we exclusively onboard active Private Equity funds, Venture Capital, Family Offices, and strategic buyers with a proven track record of deploying capital.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                            What separates Vesdea from traditional advisory firms?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We operate purely as Investment Deal Makers. We are not passive consultants nor simple introduction brokers. We act as the central nexus that identifies the opportunity, aligns the key players, and drives the transaction to a definitive close.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End faq-sec -->
+
+        <!-- main-sec -->
+        <section class="main-sec">
+
+            <!-- footer-style1 -->
+            <br><br>
+            <footer class="footer-style1">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-content">
+                            <h2 class="title">Let's Make The Next Deal Happen.</h2>
+                            <a href="https://enormous-sousaphone-56a.notion.site/31f9bc790cdf8054bcdfd28a353cf4f2?pvs=105" title="" class="ibt-btn ibt-btn-outline">
+                                <span>Access the Network</span>
+                                <i class="icon-arrow-top"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-area ibt-section-gapTop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-6">
+                                <div class="about-widget footer-widget">
+                                    <div class="footer-logo">
+                                        <img src="assets/images/vesdea_logo.png" alt="AI Agency & Technology HTML Template">
+                                    </div>
+                                    <ul class="social-icon">
+                                        <li><a href="https://linkedin.com/company/vesdea" target="_blank" title=""><i
+                                                    class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="footer-menu">
+                                    <div class="footer-links footer-widget">
+                                        <h4 class="widget-title">The Firm</h4>
+                                        <ul>
+                                            <li><a href="#orchestration" title="">Orchestration</a></li>
+                                            <li><a href="#process" title="">Process</a></li>
+                                            <li><a href="#ecosystem" title="">Ecosystem</a></li>
+                                            <li><a href="#mandate" title="">Mandate</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-botom">
+                    <div class="container">
+                        <div class="footer-box">
+                            <p><a href="#">©Vesdea</a> 2026. All rights reserved.</p>
+                            <span>Terms of use <a href="#">Privacy Policy</a></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer-style1 -->
+        </section>
+        <!-- End main-sec -->
+
+        <!-- Scroll Button -->
+        <button id="scrollBtn" title="Go to top">
+            <i class="fas fa-angle-up"></i>
+        </button>
+    </div>
+
+    <!-- Js Plugin -->
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/vendor/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/vendor/gsap.min.js" defer></script>
+    <script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
