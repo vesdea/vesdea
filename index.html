@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesdea - Estrategia. Tracción. Escala.</title>
+
+    <!-- Preconnect for faster font loading (PUT THIS FIRST!) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+    <!-- Google Fonts (deferred) -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Load Font Awesome CSS asynchronously -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" media="print" onload="this.media='all'">
+
+    <!-- fontello font css -->
+    <link rel="stylesheet" href="assets/css/plugins/fontello-enqueue.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/plugins/fontello-icons.css" media="print" onload="this.media='all'">
+
+    <!-- others css -->
+
+
+    <!-- Make these ASYNC (less critical) -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    </noscript>
+
+    <link rel="stylesheet" href="assets/css/plugins/lightgallery-bundle.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/plugins/lightgallery-bundle.min.css">
+    </noscript>
+
+
+    <!-- Keep these NORMAL (no async) - needed for preloader and initial layout -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <button id="themeBtn"><i class="far fa-moon"></i></button>
+        <div class="video-modal">
+            <div class="video-modal-content">
+                <span class="close-btn">&times;</span>
+                <iframe allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- New Mobile Menu -->
+        <div data-menu="mobileMenu" class="side-menu2">
+            <ul>
+                <li><a href="#enfoque">Enfoque</a></li>
+                <li><a href="#metodo">Método</a></li>
+                <li><a href="#ecosistema">Ecosistema</a></li>
+                <li><a href="#preguntas">Preguntas Frecuentes</a></li>
+            </ul>
+            <div class="menu-links">
+                <span>Follow us:</span>
+                <ul class="social-icon">
+                    <li><a href="https://linkedin.com/company/vesdea" title=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <a href="mailto:david@vesdea.com" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                    <span>Consulta Inicial</span>
+                </a>
+            </div>
+        </div>
+        <!-- Overlay for Mobile Menu -->
+        <div class="overlay2"></div>
+
+        <!-- sticky header -->
+        <header class="sticky-active">
+            <div class="header-menu-area">
+                <div class="row gx-20 align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div>
+                            <a href="#">
+                                <img src="assets/images/vesdea_logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu menu-style1">
+                            <ul>
+                                <li>
+                                    <a href="#enfoque" class="active">
+                                        <span class="menu-item">Enfoque</span>
+                                        <span class="menu-item2">Enfoque</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#metodo" class="active">
+                                        <span class="menu-item">Método</span>
+                                        <span class="menu-item2">Método</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#ecosistema" class="active">
+                                        <span class="menu-item">Ecosistema</span>
+                                        <span class="menu-item2">Ecosistema</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#preguntas" class="active">
+                                        <span class="menu-item">Preguntas Frecuentes</span>
+                                        <span class="menu-item2">Preguntas Frecuentes</span>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-auto d-none d-xl-block">
+                        <div class="btn-box">
+                            <a href="mailto:david@vesdea.com" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                                <span>Consulta Inicial</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="hamburger popup-menu" data-menu="mobileMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <!-- End sticky header -->
+
+        <!--======== Header ========-->
+        <header class="vs-header">
+            <div class="container2 position-relative">
+                <div class="header-menu-area">
+                    <div class="row gx-20 align-items-center justify-content-between">
+                        <div class="col-auto col">
+                            <div>
+                                <a href="index1.html">
+                                    <img src="assets/images/vesdea_logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <nav class="main-menu menu-style1">
+                                <ul>
+                                    <li>
+                                        <a href="#enfoque" class="active">
+                                            <span class="menu-item">Enfoque</span>
+                                            <span class="menu-item2">Enfoque</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#metodo" class="active">
+                                            <span class="menu-item">Método</span>
+                                            <span class="menu-item2">Método</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#ecosistema" class="active">
+                                            <span class="menu-item">Ecosistema</span>
+                                            <span class="menu-item2">Ecosistema</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#preguntas" class="active">
+                                            <span class="menu-item">Preguntas Frecuentes</span>
+                                            <span class="menu-item2">Preguntas Frecuentes</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="btn-box">
+                                <a href="mailto:david@vesdea.com" title="" class="ibt-btn ibt-btn-outline-3 ibt-btn-rounded">
+                                    <span>Consulta Inicial</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="hamburger popup-menu" data-menu="mobileMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <!--vs-main-menu-wrapper end-->
+        </header>
+        <!--======== / Header ========-->
+
+        <!-- her-style1 -->
+        <section class="hero-style1">
+            <div class="hero-info">
+                <div class="container-fluid">
+                    <div class="row end">
+                        <div class="col-lg-8">
+                            <div class="hero-title">
+                                <h1 class="gradient-title">La <span>Arquitectura</span> del Crecimiento Empresarial.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-banner">
+                <div class="container2">
+                    <div class="banner-content">
+                        <span class="sub-title" id="animatedHeading">"Estrategia. Tracción. Escala."</span>
+                        <h1 class="title2">Vesdea</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End hero-style1 -->
+
+        <!-- neural-playground -->
+        <section class="neural-playground ibt-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="neural-img">
+                            <img src="assets/images/layers/layer.png" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10">
+                        <div class="neural-content p-0">
+                            <br><br>
+                            <h2 class="gradient-title">Orquestamos el <span>Crecimiento</span> Empresarial.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End neural-playground -->
+
+        <!-- service-sec -->
+        <section id="enfoque" class="service-sec">
+            <div class="container">
+                <div class="title-area">
+                    <div class="row end">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="sec-title mb-0">
+                                <span class="sub-title">El Enfoque</span>
+                                <h2 class="title animated-heading">Estrategia de Crecimiento de Extremo a Extremo.</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="sec-btn-box">
+                                <p>Conectamos la visión de negocio con la ejecución en el mercado para desbloquear la verdadera capacidad de escala de tu empresa.</p>
+                                <a href="#metodo" title="" class="ibt-btn ibt-btn-outline">
+                                    <span>Nuestro Método</span>
+                                    <i class="icon-arrow-top"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="ser-card">
+                            <img src="assets/images/liquid2.jpg" alt="AI Agency & Technology HTML Template">
+                            <div class="ser-content">
+                                <h4 class="title">Diagnóstico de Rendimiento</h4>
+                                <p>Analizamos a fondo los fundamentos y la estructura actual de tu negocio para identificar oportunidades ocultas de mercado y localizar los vectores de expansión con mayor potencial de rentabilidad y tracción rápida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="ser-card">
+                            <img src="assets/images/service/service6-2.png" alt="AI Agency & Technology HTML Template">
+                            <div class="ser-content v2">
+                                <h4 class="title">Alineación Estratégica</h4>
+                                <p>Diseñamos el motor de crecimiento integrando la visión corporativa con las operaciones comerciales diarias para asegurar que la capacidad de entrega de la empresa acompañe perfectamente a la demanda generada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="ser-info">
+                            <div class="ser-card v3">
+                                <img src="assets/images/service/service3.png" alt="AI Agency & Technology HTML Template">
+                                <h3 class="title"><a href="">Modelos de Ingreso</a></h3>
+                            </div>
+                            <div class="ser-card v4">
+                                <img src="assets/images/liquid3.jpg" alt="AI Agency & Technology HTML Template">
+                                <div class="ser-content">
+                                    <h4 class="title">Ejecución de Impacto</h4>
+                                    <p>Nos enfocamos por completo en la consecución de KPIs reales mediante la eliminación de cuellos de botella comerciales y la optimización continua de los canales de captación hasta consolidar el valor empresarial a largo plazo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End service-sec -->
+
+        <!-- marquee-sec -->
+        <section class="marquee-sec ibt-section-gapTop">
+            <h2 style="display:none;">Marquee Section</h2>
+            <div class="marquee">
+                <div class="marquee-inner">
+                    <span>/ Estrategia de Crecimiento. / Vectores de Expansión. / Estrategia Go-To-Market. / Optimización de Ingresos. / Escala Operativa.</span>
+                    <span>/ Estrategia de Crecimiento. / Vectores de Expansión. / Estrategia Go-To-Market. / Optimización de Ingresos. / Escala Operativa.</span>
+                </div>
+            </div>
+        </section>
+        <!-- End marquee-sec -->
+
+        <!-- feature-style1 -->
+        <section id="metodo" class="feature-sec1 ibt-section-gap">
+            <div class="container">
+                <div class="sec-title">
+                    <span class="sub-title">El Método</span>
+                    <h2 class="title animated-heading">Del Diagnóstico a la Escala.</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-1.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Diagnóstico</h4>
+                            <p>Analizamos a fondo los pilares de la organización para identificar ineficiencias operativas y localizar vectores de expansión exclusivos en el mercado, asegurando que cada oportunidad de crecimiento detectada cuente con una base sólida y una ventaja competitiva clara antes de iniciar cualquier fase de aceleración.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-2.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Validación</h4>
+                            <p>Elevamos los modelos de negocio a estándares de alto rendimiento mediante la validación rigurosa de la tracción comercial, la optimización de los unit economics y el análisis de los fundamentos operativos, garantizando que la estructura de ingresos interna sea sólida y esté lista para un escalado predecible.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature4-3.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Alineación</h4>
+                            <p>Diseñamos la arquitectura operativa conectando los objetivos estratégicos de los fundadores y comités de dirección con la ejecución de los equipos comerciales, creando un marco de trabajo unificado que elimine fricciones internas y asegure que toda la empresa avance en sintonía.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="feature-card">
+                            <img src="assets/images/feature/feature13-1.png" alt="AI Agency & Technology HTML Template">
+                            <h4 class="title">Ejecución</h4>
+                            <p>Mantenemos el control absoluto de la tracción en el mercado optimizando las estrategias Go-To-Market, eliminando los cuellos de botella que frenan las ventas corporativas y liderando la implementación táctica continua hasta consolidar de manera definitiva el valor de la empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End feature-style1 -->
+
+        <!-- about-us-sec -->
+        <section id="ecosistema" class="about-us-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="about-img">
+                            <img src="assets/images/liquid4.jpg" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-content">
+                            <h2 class="style-text">Red Ejecutiva.</h2>
+                            <div class="sec-title mb-0 white">
+                                <span class="sub-title">El Ecosistema</span>
+                                <h2 class="title animated-heading">Un Ecosistema Exclusivo Impulsado por la Ejecución.</h2>
+                                <p>Las mejores estrategias de crecimiento y escalado corporativo no surgen de manuales genéricos, sino del acceso a inteligencia de mercado avanzada y metodologías probadas de ejecución. Vesdea opera precisamente en este espacio de alto rendimiento, consolidando una red de expertos, líderes sectoriales y operadores de primer nivel que aportan soluciones estratégicas directas para anticipar oportunidades de negocio antes de que sean evidentes para el mercado abierto.</p>
+                                <p class="paragraph">Esta estructura permite actuar con absoluta agilidad e impacto real, garantizando que cada intervención estratégica proteja los intereses de la empresa y potencie su rentabilidad. Ya sea conceptualizando una estrategia Go-To-Market sofisticada, optimizando las estructuras de ingresos existentes o rediseñando los procesos internos para eliminar cuellos de botella operativos, el enfoque se centra en mitigar riesgos y desplegar un valor empresarial puro que convierta la complejidad en crecimiento sostenible.</p>
+                                <a href="#preguntas" title="" class="ibt-btn ibt-btn-outline">
+                                    <span>Preguntas Frecuentes</span>
+                                    <i class="icon-arrow-top"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-us-sec -->
+
+
+        <!-- faq-sec -->
+        <section id="preguntas" class="faq-sec ibt-section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="faq-img">
+                            <img src="assets/images/layers/layer2.png" alt="AI Agency & Technology HTML Template">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="faq-content">
+                            <div class="sec-title">
+                                <span class="sub-title">Preguntas Frecuentes</span>
+                                <h2 class="title animated-heading">Consultas.</h2>
+                            </div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            ¿Cuál es el perfil exacto de las empresas con las que trabajáis?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Nos enfocamos exclusivamente en la economía de la innovación y en el tejido empresarial de alto rendimiento, operando sobre tres pilares principales de impacto. Primero, startups de base tecnológica en fase de aceleración rápida que necesitan estructurar su estrategia de comercialización y tracción de mercado. Segundo, empresas tradicionales de tamaño medio que buscan optimizar sus modelos de ingresos y eliminar ineficiencias operativas para desbloquear una verdadera escala. Tercero, organizaciones maduras preparadas para expandir su presencia competitiva y consolidar su valor corporativo a largo plazo. Dirigimos nuestras intervenciones estratégicas hacia negocios con una tracción comercial demostrada y fundamentos sólidos que busquen un crecimiento sostenible y plenamente predecible.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            ¿Cómo evaluáis y validáis una empresa antes de diseñar su estrategia?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Implementamos un proceso de diagnóstico riguroso basado en el análisis avanzado de datos, la revisión analítica de los unit economics y la auditoría completa de los flujos operativos actuales. Esta evaluación profunda nos permite detectar los puntos de fricción interna y validar la viabilidad comercial del modelo de negocio, asegurando que la organización cuente con los cimientos estructurales necesarios para soportar un escalado acelerado sin poner en riesgo su estabilidad operativa o financiera.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            ¿Cuáles son los requisitos de madurez necesarios para trabajar juntos?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            No establecemos criterios basados en requisitos financieros rígidos, sino en el potencial de escala y en el compromiso estratégico de la dirección. Buscamos colaborar con empresas que ya dispongan de un encaje de producto en el mercado, una tracción comercial demostrable y un equipo de liderazgo plenamente decidido a transicionar de la operativa diaria a la ejecución de una estrategia de expansión estructurada que genere valor a largo plazo.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                            ¿Qué diferencia a Vesdea de las firmas de consultoría tradicionales?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Rechazamos por completo los modelos de asesoramiento puramente teóricos y la entrega de informes abstractos que rara vez se implementan en el día a día. Vesdea opera como un motor de ejecución táctica y estratégica que se integra con los comités de dirección para transformar los datos en activos escalables, asumiendo la responsabilidad directa de eliminar los cuellos de botella comerciales y construir sistemas operativos predecibles enfocados en resultados tangibles.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End faq-sec -->
+
+        <!-- main-sec -->
+        <section class="main-sec">
+
+            <!-- footer-style1 -->
+            <br><br>
+            <footer class="footer-style1">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-content">
+                            <h2 class="title">Diseñemos tu Próxima Fase de Crecimiento.</h2>
+                            <a href="mailto:david@vesdea.com" title="" class="ibt-btn ibt-btn-outline">
+                                <span>Consulta Inicial</span>
+                                <i class="icon-arrow-top"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-area ibt-section-gapTop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-6">
+                                <div class="about-widget footer-widget">
+                                    <div class="footer-logo">
+                                        <img src="assets/images/vesdea_logo.png" alt="AI Agency & Technology HTML Template">
+                                    </div>
+                                    <ul class="social-icon">
+                                        <li><a href="https://linkedin.com/company/vesdea" target="_blank" title=""><i
+                                                    class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="footer-menu">
+                                    <div class="footer-links footer-widget">
+                                        <h4 class="widget-title">La Firma</h4>
+                                        <ul>
+                                            <li><a href="#enfoque" title="">Enfoque</a></li>
+                                            <li><a href="#metodo" title="">Método</a></li>
+                                            <li><a href="#ecosistema" title="">Ecosistema</a></li>
+                                            <li><a href="#preguntas" title="">Preguntas Frecuentes</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-botom">
+                    <div class="container">
+                        <div class="footer-box">
+                            <p><a href="#">©Vesdea</a> 2026. All rights reserved.</p>
+                            <span>Terms of use <a href="#">Privacy Policy</a></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer-style1 -->
+        </section>
+        <!-- End main-sec -->
+
+        <!-- Scroll Button -->
+        <button id="scrollBtn" title="Go to top">
+            <i class="fas fa-angle-up"></i>
+        </button>
+    </div>
+
+    <!-- Js Plugin -->
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/vendor/swiper-bundle.min.js" defer></script>
+    <script src="assets/js/vendor/gsap.min.js" defer></script>
+    <script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
